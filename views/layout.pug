@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .wrapper
+      nav
+        ul.main-mav__list
+          li.main-mav__list-item
+            a.main-mav__list-item-link(href="/") Home
+          li.main-mav__list-item
+            a.main-mav__list-item-link(href="/login") Login
+      block content
+      block login
